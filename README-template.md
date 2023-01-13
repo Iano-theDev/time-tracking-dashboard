@@ -4,7 +4,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ## Table of contents
 
-- [Overview](#overview)
+- [Overview](#overview).
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
