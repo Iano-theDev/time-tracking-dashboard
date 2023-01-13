@@ -20,6 +20,18 @@ body {
     flex-direction: column;
 }
 
+.info {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-image: url("images/image-jeremy.png");
+}
+
 /* cards area */
 .time-container {
     display: flex;
