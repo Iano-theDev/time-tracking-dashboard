@@ -18,8 +18,9 @@ body {
 .profile {
     display: flex;
     flex-direction: column;
-    min-width: 400px;
+    min-width: 300px;
     padding: 40px;
+    background:  hsl(246, 80%, 60%);
 }
 
 .info {
@@ -56,7 +57,7 @@ body {
     border: 1px solid #000000;
     border-radius: 8px;
     padding: 5px;
-    background: hsl(246, 80%, 60%);
+    background: hsl(235, 46%, 20%);
     width: 250px;
 }
 
