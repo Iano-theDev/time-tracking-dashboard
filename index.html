@@ -8,7 +8,7 @@
   
   <title>Frontend Mentor | Time tracking dashboard</title>
   <link rel="stylesheet" href="style.css">
-
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -17,22 +17,24 @@
 </head>
 <body>
   <div class="container">
-    <div class="profile">
-      <div class="info">
-        <div class="avatar">
-            <img src="images/image-jeremy.png" alt="jeremy robson">
-        </div>
-        <div class="report-for">
-          <p>Report for</p>
-        </div>
-        <div class="name">
-          <h1>Jeremy Robson</h1>
+    <div class="profile-container">
+      <div class="profile">
+        <div class="info">
+          <div class="avatar">
+              <img src="images/image-jeremy.png" alt="jeremy robson">
+          </div>
+          <div class="report-for">
+            <p>Report for</p>
+          </div>
+          <div class="name">
+            <h1>Jeremy Robson</h1>
+          </div>
         </div>
       </div>
       <div class="time-frame">
-        <p>Daily</p>
+        <p id="inactive">Daily</p>
         <p>Weekly</p>
-        <p>Monthly</p>
+        <p id="inactive">Monthly</p>
       </div>
     </div>
 
@@ -56,7 +58,7 @@
                 <h1>32hrs</h1>
               </div>
               <div class="week-hrs">
-                <p>Last Week - 36hrs</p>
+                <p id="inactive">Last Week - 36hrs</p>
               </div>
             </div>
           </div>
@@ -83,7 +85,7 @@
                 <h1>10hrs</h1>
               </div>
               <div class="week-hrs">
-                <p>Last Week - 36hrs</p>
+                <p id="inactive">Last Week - 36hrs</p>
               </div>
             </div>
           </div>
@@ -109,7 +111,7 @@
                 <h1>4hrs</h1>
               </div>
               <div class="week-hrs">
-                <p>Last Week - 7hrs</p>
+                <p id="inactive">Last Week - 7hrs</p>
               </div>
             </div>
           </div>
@@ -136,7 +138,7 @@
                 <h1>4hrs</h1>
               </div>
               <div class="week-hrs">
-                <p>Last Week - 5hrs</p>
+                <p id="inactive">Last Week - 5hrs</p>
               </div>
             </div>
           </div>
@@ -162,7 +164,7 @@
                 <h1>5hrs</h1>
               </div>
               <div class="week-hrs">
-                <p>Last Week - 10hrs</p>
+                <p id="inactive">Last Week - 10hrs</p>
               </div>
             </div>
           </div>
@@ -188,7 +190,7 @@
                 <h1>2hrs</h1>
               </div>
               <div class="week-hrs">
-                <p>Last Week - 2hrs</p>
+                <p id="inactive">Last Week - 2hrs</p>
               </div>
             </div>
           </div>
@@ -202,7 +204,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ian Kamande</a>.
+    Coded by <a href="https://github.com/Iano-theDev/time-tracking-dashboard">Ian Kamande</a>.
   </div>
 </body>
 </html>
